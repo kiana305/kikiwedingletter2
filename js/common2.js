@@ -25,7 +25,7 @@ $(window).on('load', function(){
 function scrollFixed() { // ��ũ�� Fixed
 	var isTablet = navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|Windows Phone)/);
 	var ovY;
-	!isTablet === true ? (ovY = "scroll): (ovY = "hidden");
+	!isTablet === true ? (ovY = "scroll") : (ovY = "hidden");
 
 	$("html").css({
 		overflow : "hidden",
@@ -197,9 +197,9 @@ function popGallery() { // �˾�������
 }
 
 function galleryPOP(toggle, type, index) { // �������˾� ����,�ݱ�
-	if(type === "type1)return galleryType1(toggle);
-	if(type === "type2)return galleryType2(toggle, index);
-	if(type === "type3)return galleryType3(toggle, index);
+	if(type === "type1") return galleryType1(toggle);
+	if(type === "type2") return galleryType2(toggle, index);
+	if(type === "type3") return galleryType3(toggle, index);
 }
 
 function galleryType1(toggle){ // �����̵��� ������
