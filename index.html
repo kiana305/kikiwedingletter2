@@ -1,0 +1,947 @@
+
+
+<!doctype html>
+<html lang="ko">
+<head>
+
+<meta charset="euc-kr">
+<title>모바일 청첩장</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,target-densitydpi=medium-dpi" />
+<meta name="format-detection" content="telephone=no" />
+<meta property="og:type" content="website">
+<meta property="og:image" content=""> <!-- Link Image -->
+<meta property="og:title" content="모바일청첩장"> <!-- Link Title -->
+<meta property="og:description" content=""> <!-- Link Text -->
+<meta property="og:url" content=""> <!-- Link URL -->
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/earlyaccess/kopubbatang.css" /> <!-- font-family: 'KoPub Batang'; -->
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/earlyaccess/nanummyeongjo.css" /> <!-- font-family: 'Nanum Myeongjo'; -->
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/earlyaccess/notosanskr.css" /> <!-- font-family: 'Noto Sans KR'; -->
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/earlyaccess/nanumgothic.css" /> <!-- font-family: 'Nanum Gothic'; -->
+<link rel="stylesheet" type="text/css" href="css/lightSlider.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css?v=0.0.5" />
+<script type="text/javascript" src="kikiweding_party/js_2/jquery-1.12.4.min.js"></script> 
+<script type="text/javascript" src="kikiweding_party/js_2/jquery-ui.min.js"></script>
+<script type="text/javascript" src="kikiweding_party/js_2/lightSlider.js"></script>
+<script type="text/javascript" src="kikiweding_party/js_2/jquery.rwdImageMaps.min.js"></script>
+<script type="text/javascript" src="kikiweding_party/js_2/common.js"></script>
+<script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+
+<!-- <script type="text/javascript">
+	// SDK를 초기화 합니다. 사용할 앱의 JavaScript 키를 설정해 주세요.
+	Kakao.init('JAVASCRIPT_KEY');
+  
+	// SDK 초기화 여부를 판단합니다.
+	console.log(Kakao.isInitialized());
+  
+	function kakaoShare() {
+	  Kakao.Link.sendDefault({
+		objectType: 'feed',
+		content: {
+		  title: '카카오공유하기 시 타이틀',
+		  description: '카카오공유하기 시 설명',
+		  imageUrl: '카카오공유하기 시 썸네일 이미지 경로',
+		  link: {
+			mobileWebUrl: '카카오공유하기 시 클릭 후 이동 경로',
+			webUrl: '카카오공유하기 시 클릭 후 이동 경로',
+		  },
+		},
+		buttons: [
+		  {
+			title: '웹으로 보기',
+			link: {
+			  mobileWebUrl: '카카오공유하기 시 클릭 후 이동 경로',
+			  webUrl: '카카오공유하기 시 클릭 후 이동 경로',
+			},
+		  },
+		],
+		// 카카오톡 미설치 시 카카오톡 설치 경로이동
+		installTalk: true,
+	  })
+	}
+  </script> -->
+
+</head>
+<body class="mcard_29">
+	<div class="wrapper">
+		<section id="content">
+
+			<!--// 비주얼 -->
+			<section class="visual-section h-100">
+				<div class="vertical-center">
+					<div class="vertical-item photo">
+						<img src="img/mainimg.jpg" alt="">
+					</div>
+					<div class="vertical-item info">
+						<p class="p1">
+							<span class="vs-span">허관</span>
+							<span class="vs-span bar">/</span>
+							<span class="vs-span">지은화</span>
+						</p>
+						<p class="p2" style="font-size: 0.7rem;">
+							본식 : 09월 07일 토요일 오후 1시 50분 경민 웨딩홀<br>
+							피로연 : 08월 17일 토요일 오후 12시 더파티W웨딩
+						</p>
+					</div>
+				</div>
+			</section>
+			<!-- 비주얼 //-->
+
+			<!--// 인사말 -->
+			<section class="greeting-section">
+				<div class="sec-tit">이제 서로, 평생 함께</div>
+				<div class="sec-txt">서로가 마주보며 다져온 사랑을
+이제 함께 한 곳을 바라보며
+걸어갈 수 있는 큰 사랑으로
+키우고자 합니다.
+저희 두 사람이 사랑의 이름으로
+지켜나갈 수 있도록
+앞날을 축복해 주시면
+감사하겠습니다.</div>
+				<div class="info">
+					<div class="ib">
+						<div class="tb">
+							<div class="row">
+								<p class="honju">
+									<span class="gt-span">허준</span>
+									<span class="gt-span bul"></span>
+									<span class="gt-span">남경숙</span>
+								</p>
+								<p class="default">의</p>
+								<p class="gwangye">아들</p>
+								<p class="slsb">허관</p>
+							</div>
+							<div class="row">
+								<p class="honju">
+									<span class="gt-span">지만식</span>
+									<span class="gt-span bul"></span>
+									<span class="gt-span">조영미</span>
+								</p>
+								<p class="default">의</p>
+								<p class="gwangye">딸</p>
+								<p class="slsb">지은화</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- 인사말 //-->
+
+			<!--// 배너 -->
+			<section class="banner-section" style="background-color: #b7b7b7">
+				<div class="tb">
+					<p class="txt">소 중 한 &nbsp; 당 신 을 &nbsp; 초 대 합 니 다</p>
+				</div>
+			</section>
+			<!-- 배너 //-->
+
+			<!--// 신랑 신부에게 연락하기 -->
+			<section class="slsbTel-section">
+				<div class="ib">
+					<div class="row">
+						<div class="slsb-tit">신랑에게 연락하기</div>
+						<div class="slsb-btn">
+							<div class="com-btn tel sl"> 
+								<button class="callbtn" onclick="document.location.href='tel:010-5007-2421'"> 
+								<a href="tel:010-5007-2421" class="tel"></a>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="slsb-tit">신부에게 연락하기</div>
+						<div class="slsb-btn">
+							<div class="com-btn tel sb"> 
+								<button class="callbtn" onclick="document.location.href='tel:010-9964-7966'"> 
+								<a href="tel:010-9964-7966" class="tel"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- 신랑 신부에게 연락하기 //-->
+
+			<!--// 혼주에게 연락하기 -->
+			<section class="honjuTel-section">
+				<div class="tit">혼주에게 연락하기</div>
+				<div class="con">
+					<div class="col">
+						<div class="honju-tit sl">신랑 측 혼주</div>
+						<div class="box first">
+							<div class="name"><span>아버지</span> <strong>허준</strong></div>
+							<div class="honju-btn">
+								<div class="com-btn tel sl"> 
+									<button class="callbtn" onclick="document.location.href='tel:010-4132-2421'"> 
+									<a href="tel:010-4132-2421" class="tel callbtn"></a>
+								</div>
+							</div>
+						</div>
+						<div class="box">
+							<div class="name"><span>어머니</span> <strong>남경숙</strong></div>
+							<div class="honju-btn">
+								<div class="com-btn tel sb"> 
+									<button class="callbtn" onclick="document.location.href='tel:010-2448-4988'"> 
+									<a href="tel:010-2448-4988" class="tel callbtn"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="honju-tit sb">신부 측 혼주</div>
+						<div class="box first">
+							<div class="name"><span>아버지</span> <strong>지만식</strong></div>
+							<div class="com-btn tel sl"> 
+								<button class="callbtn" onclick="document.location.href='tel:010-4024-9750'"> 
+								<a href="tel:010-4024-9750" class="tel callbtn"></a>
+							</div>
+						</div>
+						<div class="box">
+							<div class="name"><span>어머니</span> <strong>조영미</strong></div>
+							<div class="com-btn tel sb"> 
+								<button class="callbtn" onclick="document.location.href='tel:010-5701-7966'"> 
+								<a href="tel:010-5701-7966" class="tel callbtn"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- 혼주에게 연락하기 //-->
+
+			<!--// 달력 -->
+			<section class="calendar-section">
+				<div class="calendar-wrap">
+					<div id="calendar"></div>
+					<div class="day-time">
+						<span class="day">sat.</span> <span class="time">pm 1:50</span>
+					</div>
+				</div>
+			</section>
+			<!-- 달력 //-->
+
+			<!--// 갤러리 -->
+			<section class="gallery-section">
+				<div class="sec-tit">갤러리</div>
+				<div class="contain">
+					<ul id="image-gallery" class="gallery list-unstyled cS-hidden roll_type01">
+						<li data-thumb="img/pic_0.jpg?v=0.0.1" onclick="galleryPOP('open', 'type1');">
+							<div class="box">
+								<div class="pos">
+									<div class="cen">
+										<img src="img/pic_0.jpg?v=0.0.1" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-thumb="img/pic_1.jpg?v=0.0.1" onclick="galleryPOP('open', 'type1');">
+							<div class="box">
+								<div class="pos">
+									<div class="cen">
+										<img src="img/pic_1.jpg?v=0.0.1" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-thumb="img/pic_2.jpg?v=0.0.1" onclick="galleryPOP('open', 'type1');">
+							<div class="box">
+								<div class="pos">
+									<div class="cen">
+										<img src="img/pic_2.jpg?v=0.0.1" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-thumb="img/pic_3.jpg?v=0.0.1" onclick="galleryPOP('open', 'type1');">
+							<div class="box">
+								<div class="pos">
+									<div class="cen">
+										<img src="img/pic_3.jpg?v=0.0.1" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-thumb="img/pic_4.jpg?v=0.0.1" onclick="galleryPOP('open', 'type1');">
+							<div class="box">
+								<div class="pos">
+									<div class="cen">
+										<img src="img/pic_4.jpg?v=0.0.1" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-thumb="img/pic_5.jpg?v=0.0.1" onclick="galleryPOP('open', 'type1');">
+							<div class="box">
+								<div class="pos">
+									<div class="cen">
+										<img src="img/pic_5.jpg?v=0.0.1" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-thumb="img/pic_6.jpg?v=0.0.1" onclick="galleryPOP('open', 'type1');">
+							<div class="box">
+								<div class="pos">
+									<div class="cen">
+										<img src="img/pic_6.jpg?v=0.0.1" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-thumb="img/pic_7.jpg?v=0.0.1" onclick="galleryPOP('open', 'type1');">
+							<div class="box">
+								<div class="pos">
+									<div class="cen">
+										<img src="img/pic_7.jpg?v=0.0.1" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-thumb="img/pic_8.jpg?v=0.0.1" onclick="galleryPOP('open', 'type1');">
+							<div class="box">
+								<div class="pos">
+									<div class="cen">
+										<img src="img/pic_8.jpg?v=0.0.1" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-thumb="img/pic_9.jpg?v=0.0.1" onclick="galleryPOP('open', 'type1');">
+							<div class="box">
+								<div class="pos">
+									<div class="cen">
+										<img src="img/pic_9.jpg?v=0.0.1" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-thumb="img/pic_10.jpg?v=0.0.1" onclick="galleryPOP('open', 'type1');">
+							<div class="box">
+								<div class="pos">
+									<div class="cen">
+										<img src="img/pic_10.jpg?v=0.0.1" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-thumb="img/pic_11.jpg?v=0.0.1" onclick="galleryPOP('open', 'type1');">
+							<div class="box">
+								<div class="pos">
+									<div class="cen">
+										<img src="img/pic_11.jpg?v=0.0.1" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-thumb="img/pic_12.jpg?v=0.0.1" onclick="galleryPOP('open', 'type1');">
+							<div class="box">
+								<div class="pos">
+									<div class="cen">
+										<img src="img/pic_12.jpg?v=0.0.1" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-thumb="img/pic_13.jpg?v=0.0.1" onclick="galleryPOP('open', 'type1');">
+							<div class="box">
+								<div class="pos">
+									<div class="cen">
+										<img src="img/pic_13.jpg?v=0.0.1" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-thumb="img/pic_14.jpg?v=0.0.1" onclick="galleryPOP('open', 'type1');">
+							<div class="box">
+								<div class="pos">
+									<div class="cen">
+										<img src="img/pic_14.jpg?v=0.0.1" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-thumb="img/pic_15.jpg?v=0.0.1" onclick="galleryPOP('open', 'type1');">
+							<div class="box">
+								<div class="pos">
+									<div class="cen">
+										<img src="img/pic_15.jpg?v=0.0.1" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-thumb="img/pic_16.jpg?v=0.0.1" onclick="galleryPOP('open', 'type1');">
+							<div class="box">
+								<div class="pos">
+									<div class="cen">
+										<img src="img/pic_16.jpg?v=0.0.1" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-thumb="img/pic_17.jpg?v=0.0.1" onclick="galleryPOP('open', 'type1');">
+							<div class="box">
+								<div class="pos">
+									<div class="cen">
+										<img src="img/pic_17.jpg?v=0.0.1" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-thumb="img/pic_18.jpg?v=0.0.1" onclick="galleryPOP('open', 'type1');">
+							<div class="box">
+								<div class="pos">
+									<div class="cen">
+										<img src="img/pic_18.jpg?v=0.0.1" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-thumb="img/pic_19.jpg?v=0.0.1" onclick="galleryPOP('open', 'type1');">
+							<div class="box">
+								<div class="pos">
+									<div class="cen">
+										<img src="img/pic_19.jpg?v=0.0.1" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-thumb="img/pic_20.jpg?v=0.0.1" onclick="galleryPOP('open', 'type1');">
+							<div class="box">
+								<div class="pos">
+									<div class="cen">
+										<img src="img/pic_20.jpg?v=0.0.1" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-thumb="img/pic_21.jpg?v=0.0.1" onclick="galleryPOP('open', 'type1');">
+							<div class="box">
+								<div class="pos">
+									<div class="cen">
+										<img src="img/pic_21.jpg?v=0.0.1" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-thumb="img/pic_22.jpg?v=0.0.1" onclick="galleryPOP('open', 'type1');">
+							<div class="box">
+								<div class="pos">
+									<div class="cen">
+										<img src="img/pic_22.jpg?v=0.0.1" />
+									</div>
+								</div>
+							</div>
+						</li>
+						<li data-thumb="img/pic_23.jpg?v=0.0.1" onclick="galleryPOP('open', 'type1');">
+							<div class="box">
+								<div class="pos">
+									<div class="cen">
+										<img src="img/pic_23.jpg?v=0.0.1" />
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<p class="ex">이미지를 클릭하시면 확대보기가 가능합니다.</p>
+				</div>
+			</section>
+			<!-- 갤러리 //-->
+
+			<!--// 텍스트 배너 -->
+			<section class="tbanner-section">
+				<div class="text vertical">
+					<div class="ib">
+						<span class="vt">예쁘게<span class="space">잘</span>살겠습니다</span>
+					</div>
+				</div>
+			</section>
+			<!-- 텍스트 배너 //-->
+
+
+			<!--// 오시는길 -->
+			<section class="location-section">
+				<div class="sec-tit">오시는길</div>
+				<div class="map-area">
+					<div class="head">
+						<div class="tit">더파티 W웨딩 양산점</div>
+						<div class="txt">
+							<p>경상남도 양산시 강변로 438 크리스탈타워</p>
+							<p>Tel. 055-365-2662</p>
+						</div>
+					</div>
+					<div id="map_canvas" class="map">
+						<div style="font:normal normal 400 12px/normal dotum, sans-serif; width:100%; height:100%; color:#333; position:relative">
+							<div style="height: 100%;">
+								<a href="https://naver.me/FQV3gldg" target="_blank">
+									<img class="map" src="img/map_p.jpg" width="100%" height="100%">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="info">
+					<div class="contain">
+						<dl>
+							<dt>대중교통 이용시</dt>
+							<dd>지하철2호선 양산역 1,4번 출구</dd>
+							<dd>버스 : 8, 10, 13, 16, 17, 24, 24-1, 32, 32-1, 52, 57, 57A, 85, 87, 113, 128, 128-1, 138, 1500, 3000</dd>
+						</dl>
+						<dl>
+							<dt>자가용 이용시</dt>
+							<dd>크리스탈타워 건물 내 3시간 무료주차( 만차 시 양산역 공용주차장, 양산역 프라자 주차장 이용 )</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="info">
+					
+				</div>
+			</section>
+			<!-- 오시는길 //-->
+
+			<!-- 축의금 계좌번호-->
+			<section class="account-section">
+				<div class="sec-tit">신랑신부에게 마음 전하기</div>
+				<div class="sec-txt">축하의 마음을 담아 축의금을 전달해보세요.</div>
+				<div class="ib">
+					<div class="row">
+						<div class="slsb-tit">신랑측 마음</div>
+						<div class="slsb-btn">
+							<a href="javascript:popOpen('0 1rem','accountCopyG');" class="com-btn acc sl">계좌번호 보기</a>						
+						</div>
+					</div>
+					<div class="row">
+						<div class="slsb-tit">신부측 마음</div>
+						<div class="slsb-btn">
+							<a href="javascript:popOpen('0 1rem','accountCopyB');" class="com-btn acc sb">계좌번호 보기</a>						
+						</div>
+					</div>		
+				</div>
+			</section>
+			<!--// 축의금 계좌번호-->
+		</div>
+
+		<!--// 푸터 -->
+		<footer id="footer">
+			<!-- <div class="foot-share">
+				 <ul class="foot-share-list"> 
+					 <li> 
+						 <a href="javascript:pcAlert();" class="kakao kakao_btn"> 
+							 카카오톡<br> 공유하기 
+						 </a> 
+					 </li> 
+				 </ul> 
+			</div> -->
+			<div class="foot-logo">
+				made by kiana
+			</div>
+		</footer>
+<!-- 푸터 //-->
+	</div>
+
+	<div class="gallery-pop-wrap">
+		<div class="pop-header">
+			<div class="tit">갤러리</div>
+		</div>
+		<div class="pop-body">
+			<ul id="pop-gallery" class="gallery list-unstyled cS-hidden roll_type01">
+				<li data-thumb="img/pic_0.jpg?v=0.0.1">
+					<div class="box">
+						<div class="pos">
+							<div class="cen">
+								<img src="img/pic_0.jpg?v=0.0.1" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li data-thumb="img/pic_1.jpg?v=0.0.1">
+					<div class="box">
+						<div class="pos">
+							<div class="cen">
+								<img src="img/pic_1.jpg?v=0.0.1" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li data-thumb="img/pic_2.jpg?v=0.0.1">
+					<div class="box">
+						<div class="pos">
+							<div class="cen">
+								<img src="img/pic_2.jpg?v=0.0.1" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li data-thumb="img/pic_3.jpg?v=0.0.1">
+					<div class="box">
+						<div class="pos">
+							<div class="cen">
+								<img src="img/pic_3.jpg?v=0.0.1" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li data-thumb="img/pic_4.jpg?v=0.0.1">
+					<div class="box">
+						<div class="pos">
+							<div class="cen">
+								<img src="img/pic_4.jpg?v=0.0.1" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li data-thumb="img/pic_5.jpg?v=0.0.1">
+					<div class="box">
+						<div class="pos">
+							<div class="cen">
+								<img src="img/pic_5.jpg?v=0.0.1" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li data-thumb="img/pic_6.jpg?v=0.0.1">
+					<div class="box">
+						<div class="pos">
+							<div class="cen">
+								<img src="img/pic_6.jpg?v=0.0.1" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li data-thumb="img/pic_7.jpg?v=0.0.1">
+					<div class="box">
+						<div class="pos">
+							<div class="cen">
+								<img src="img/pic_7.jpg?v=0.0.1" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li data-thumb="img/pic_8.jpg?v=0.0.1">
+					<div class="box">
+						<div class="pos">
+							<div class="cen">
+								<img src="img/pic_8.jpg?v=0.0.1" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li data-thumb="img/pic_9.jpg?v=0.0.1">
+					<div class="box">
+						<div class="pos">
+							<div class="cen">
+								<img src="img/pic_9.jpg?v=0.0.1" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li data-thumb="img/pic_10.jpg?v=0.0.1">
+					<div class="box">
+						<div class="pos">
+							<div class="cen">
+								<img src="img/pic_10.jpg?v=0.0.1" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li data-thumb="img/pic_11.jpg?v=0.0.1">
+					<div class="box">
+						<div class="pos">
+							<div class="cen">
+								<img src="img/pic_11.jpg?v=0.0.1" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li data-thumb="img/pic_12.jpg?v=0.0.1">
+					<div class="box">
+						<div class="pos">
+							<div class="cen">
+								<img src="img/pic_12.jpg?v=0.0.1" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li data-thumb="img/pic_13.jpg?v=0.0.1">
+					<div class="box">
+						<div class="pos">
+							<div class="cen">
+								<img src="img/pic_13.jpg?v=0.0.1" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li data-thumb="img/pic_14.jpg?v=0.0.1">
+					<div class="box">
+						<div class="pos">
+							<div class="cen">
+								<img src="img/pic_14.jpg?v=0.0.1" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li data-thumb="img/pic_15.jpg?v=0.0.1">
+					<div class="box">
+						<div class="pos">
+							<div class="cen">
+								<img src="img/pic_15.jpg?v=0.0.1" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li data-thumb="img/pic_16.jpg?v=0.0.1">
+					<div class="box">
+						<div class="pos">
+							<div class="cen">
+								<img src="img/pic_16.jpg?v=0.0.1" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li data-thumb="img/pic_17.jpg?v=0.0.1">
+					<div class="box">
+						<div class="pos">
+							<div class="cen">
+								<img src="img/pic_17.jpg?v=0.0.1" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li data-thumb="img/pic_18.jpg?v=0.0.1">
+					<div class="box">
+						<div class="pos">
+							<div class="cen">
+								<img src="img/pic_18.jpg?v=0.0.1" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li data-thumb="img/pic_19.jpg?v=0.0.1">
+					<div class="box">
+						<div class="pos">
+							<div class="cen">
+								<img src="img/pic_19.jpg?v=0.0.1" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li data-thumb="img/pic_20.jpg?v=0.0.1">
+					<div class="box">
+						<div class="pos">
+							<div class="cen">
+								<img src="img/pic_20.jpg?v=0.0.1" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li data-thumb="img/pic_21.jpg?v=0.0.1">
+					<div class="box">
+						<div class="pos">
+							<div class="cen">
+								<img src="img/pic_21.jpg?v=0.0.1" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li data-thumb="img/pic_22.jpg?v=0.0.1">
+					<div class="box">
+						<div class="pos">
+							<div class="cen">
+								<img src="img/pic_22.jpg?v=0.0.1" />
+							</div>
+						</div>
+					</div>
+				</li>
+				<li data-thumb="img/pic_23.jpg?v=0.0.1">
+					<div class="box">
+						<div class="pos">
+							<div class="cen">
+								<img src="img/pic_23.jpg?v=0.0.1" />
+							</div>
+						</div>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+		<button href="javascript:pcAlert();" class="close-btn" onclick="galleryPOP('close', 'type1')">닫기</button>
+	</div>
+
+
+
+	<div class="pop-wrap accountCopy" id="accountCopyG">
+		<div class="pop-inner">
+			<div class="pop-head">신랑측 계좌번호</div>
+			<div class="pop-body">
+				<div class="form">
+					<form action="">
+						<div class="group col-2 first">
+							<div>
+								토스뱅크
+							</div>
+							<div>
+								<span>예금주 : </span> 허관
+							</div>
+						</div>
+						<div class="group">
+							<div>
+								<input name="GBankNum1" id="GBankNum1" class="input" readonly value="000-123-456789">
+								<button type="button" class="btn" onclick="jsCopyLink('000-123-456789', 'accountCopyG')">복사</button>
+							</div>
+						</div>			
+						<div class="group col-2">
+							<div>
+								농협은행
+							</div>
+							<div>
+								<span>예금주 : </span> 남경숙
+							</div>
+						</div>
+						<div class="group">
+							<div>
+								<input name="GBankNum2" id="GBankNum2" class="input" readonly value="819-12-423161">
+								<button type="button" class="btn" onclick="jsCopyLink('819-12-423161', 'accountCopyG')">복사</button>
+							</div>
+						</div>			
+					</form>
+				</div>
+			</div>
+			<button href="javascript:void(0);" class="close-btn" onclick="popClose('accountCopyG')">닫기</button>
+		</div>
+	</div>
+
+	<div class="pop-wrap accountCopy" id="accountCopyB">
+		<div class="pop-inner">
+			<div class="pop-head">신부측 계좌번호</div>
+			<div class="pop-body">
+				<div class="form">
+					<form action="">
+						<div class="group col-2 first">
+							<div>
+								토스뱅크
+							</div>
+							<div>
+								<span>예금주 : </span> 지은화
+							</div>
+						</div>
+						<div class="group">
+							<div>
+								<input name="BBankNum1" id="BBankNum1" class="input" readonly value="1000-0725-7414">
+								<button type="button" class="btn" onclick="jsCopyLink('1000-0725-7414', 'accountCopyB')">복사</button>
+
+							</div>
+						</div>			
+						<div class="group col-2">
+							<div>
+								농협은행
+							</div>
+							<div>
+								<span>예금주 : </span> 지만식
+							</div>
+						</div>
+						<div class="group">
+							<div>
+								<input name="BBankNum2" id="BBankNum2" class="input" readonly value="201020-52-028608">
+								<button type="button" class="btn" onclick="jsCopyLink('201020-52-028608', 'accountCopyB')">복사</button>
+							</div>
+						</div>			
+					</form>
+				</div>
+			</div>
+			<button href="javascript:void(0);" class="close-btn" onclick="popClose('accountCopyB')">닫기</button>
+		</div>
+	</div>
+
+	<div class="pop-wrap copyComplete" id="copyComplete">
+		<div class="pop-inner">			
+			<div class="pop-body">
+				<div class="form">
+				<form action="">
+					<div class="con">
+						<div class="group">
+							<div>
+								<div class="tit">계좌번호가 복사되었습니다.</div>
+								<!-- <div class="bkinfo">
+									<span>토스뱅크 000-123-456789</span><br><span>예금주 지은화</span>
+								</div>								 -->
+							</div>
+						</div>
+					</div>
+					<div class="buttons">	
+						<a href="javascript:void(0);" class="btn" onclick="popClose('copyComplete')">확인</a>
+					</div>
+				</form>
+				</div>
+			</div>			
+		</div>
+	</div>
+		
+	
+
+	
+	<script>
+		function music_player(){   
+			if ($('#m_off').text()=='stop'){
+				bgmStart('/music/bgm1.mp3');
+				$('#m_off').text('start');
+				document.getElementById('m_on').src="img/music_01_on.png" 
+			}else{
+				bgmStop();
+				$('#m_off').text('stop')
+				document.getElementById('m_on').src="img/music_01_off.png" 
+			}
+		}
+
+		function bgmStart(link){
+			if ( window.HTMLAudioElement ) {			
+				audio = $('audio');		
+				audio[0].src = link;			
+				audio[0].load();
+				audio[0].play();
+				//alert("audio");
+			}else{							
+				//ie_player.setBGM(link);
+				//alert(ie_player.src);
+				setTimeout("ie_player.bgmPlay()", 100);	
+				//alert("ifrm");
+			}
+		}
+
+		function bgmStop(){
+			if ( window.HTMLAudioElement ) {
+				audio = $('audio');			
+				audio[0].pause();		
+			}else{
+				ie_player.bgmStop();			
+			}
+		}
+
+		// 포토갤러리
+		imageGallery();
+
+		// 팝업갤러리
+		popGallery();
+
+		// 달력
+		dataPicker('2024-08-17');		
+
+		// 다음 지도
+		// daumMap(37.546303, 127.048160);
+
+		function jsCopyLink(copyText, id) {            
+			var tmpTextarea = document.createElement('textarea');
+			tmpTextarea.value = copyText;
+		 
+			document.body.appendChild(tmpTextarea);
+			tmpTextarea.select();
+			tmpTextarea.setSelectionRange(0, 9999);  // 셀렉트 범위 설정
+		 
+			document.execCommand('copy');
+			document.body.removeChild(tmpTextarea);
+			popClose(id);
+			popOpen('0 1rem','copyComplete');			
+			//alert("URL 복사가 완료되었습니다."); 					  
+		}
+
+		$(document).on("ready", function(){
+			
+		});
+	</script>
+
+</body>
+</html>
